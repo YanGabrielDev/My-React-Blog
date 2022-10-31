@@ -8,6 +8,8 @@ import ArchiveIcon from '@mui/icons-material/Archive';
 import FileCopyIcon from '@mui/icons-material/FileCopy';
 import MoreHorizIcon from '@mui/icons-material/MoreHoriz';
 import { SideBar } from './components/SideBar';
+import { Header } from './components/Header';
+import { Content } from './components/Content';
 
 function App() {
   const [anchorEl, setAnchorEl] = React.useState<null | HTMLElement>(null);
@@ -21,7 +23,16 @@ function App() {
 
   return (
     <div>
+      <Header/>
       <SideBar/>
+      <Content>
+        <h1>opa</h1>
+        <h1>opa</h1>
+        <h1>opa</h1>
+        <h1>opa</h1>
+        <h1>opa</h1>
+        <h1>opa</h1>
+      </Content>
       {/* <Button
         id="demo-customized-button"
         aria-controls={open ? 'demo-customized-menu' : undefined}
