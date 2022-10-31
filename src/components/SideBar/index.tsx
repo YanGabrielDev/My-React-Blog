@@ -14,12 +14,15 @@ return(
   </Styled.Button>
     </Styled.Header>
     <Styled.Menu>
-
+     
   {mock.map((links: any) => {
     return(
       <>
       
-      <Styled.MenuLink>{links.icon}{links.name}</Styled.MenuLink>
+      <Styled.MenuLink>
+        <Close/>
+        <h3>uepa</h3>
+      </Styled.MenuLink>
       </>
     )
   })}

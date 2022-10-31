@@ -24,8 +24,8 @@ border: none;
 color: ${theme.colors.white};
 background-color: ${theme.colors.black};
 position: fixed;
-top: 8px;
-left: 8px;
+top: 11px;
+padding: 3px 12px;
 `}
 `
 export const Header = styled.header`
@@ -33,6 +33,9 @@ ${({theme}) => css`
 background-color: ${theme.colors.black};
 width: 100%;
 height: 50px;
+display: grid;
+justify-content: center;
+/* position: absolute; */
 `}
 
 `
@@ -41,7 +44,8 @@ ${({theme}) => css`
 background-color: ${theme.colors.black};
 width: 100%;
 height: 100%;
-display: grid;
+display: flex;
+flex-direction: column;
 `}
 
 `
@@ -51,8 +55,12 @@ background-color: ${theme.colors.black};
 width: 100%;
 height: 30px;
 display: flex;
+gap: 25px;
 color: white;
 align-items: center;
+letter-spacing: 2px;
+padding: 3px 12px;
+margin-top: 5px;
 `}
 
 `
