@@ -26,12 +26,21 @@ function App() {
       <Header/>
       <SideBar/>
       <Content>
-        <h1>opa</h1>
-        <h1>opa</h1>
-        <h1>opa</h1>
-        <h1>opa</h1>
-        <h1>opa</h1>
-        <h1>opa</h1>
+        <h1>Title post</h1>
+        <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore vitae earum temporibus ipsum, laudantium omnis numquam soluta corporis quasi repellendus? Omnis delectus dolorem nam recusandae, ratione velit necessitatibus id exercitationem?</h3>
+        <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore vitae earum temporibus ipsum, laudantium omnis numquam soluta corporis quasi repellendus? Omnis delectus dolorem nam recusandae, ratione velit necessitatibus id exercitationem?</h3>
+        <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore vitae earum temporibus ipsum, laudantium omnis numquam soluta corporis quasi repellendus? Omnis delectus dolorem nam recusandae, ratione velit necessitatibus id exercitationem?</h3>
+        <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore vitae earum temporibus ipsum, laudantium omnis numquam soluta corporis quasi repellendus? Omnis delectus dolorem nam recusandae, ratione velit necessitatibus id exercitationem?</h3>
+        <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore vitae earum temporibus ipsum, laudantium omnis numquam soluta corporis quasi repellendus? Omnis delectus dolorem nam recusandae, ratione velit necessitatibus id exercitationem?</h3>
+        <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore vitae earum temporibus ipsum, laudantium omnis numquam soluta corporis quasi repellendus? Omnis delectus dolorem nam recusandae, ratione velit necessitatibus id exercitationem?</h3>
+        <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore vitae earum temporibus ipsum, laudantium omnis numquam soluta corporis quasi repellendus? Omnis delectus dolorem nam recusandae, ratione velit necessitatibus id exercitationem?</h3>
+        <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore vitae earum temporibus ipsum, laudantium omnis numquam soluta corporis quasi repellendus? Omnis delectus dolorem nam recusandae, ratione velit necessitatibus id exercitationem?</h3>
+        <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore vitae earum temporibus ipsum, laudantium omnis numquam soluta corporis quasi repellendus? Omnis delectus dolorem nam recusandae, ratione velit necessitatibus id exercitationem?</h3>
+        <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore vitae earum temporibus ipsum, laudantium omnis numquam soluta corporis quasi repellendus? Omnis delectus dolorem nam recusandae, ratione velit necessitatibus id exercitationem?</h3>
+        <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore vitae earum temporibus ipsum, laudantium omnis numquam soluta corporis quasi repellendus? Omnis delectus dolorem nam recusandae, ratione velit necessitatibus id exercitationem?</h3>
+        <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore vitae earum temporibus ipsum, laudantium omnis numquam soluta corporis quasi repellendus? Omnis delectus dolorem nam recusandae, ratione velit necessitatibus id exercitationem?</h3>
+        <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore vitae earum temporibus ipsum, laudantium omnis numquam soluta corporis quasi repellendus? Omnis delectus dolorem nam recusandae, ratione velit necessitatibus id exercitationem?</h3>
+        <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore vitae earum temporibus ipsum, laudantium omnis numquam soluta corporis quasi repellendus? Omnis delectus dolorem nam recusandae, ratione velit necessitatibus id exercitationem?</h3>
       </Content>
       {/* <Button
         id="demo-customized-button"
