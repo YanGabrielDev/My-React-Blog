@@ -1,17 +1,17 @@
 import React from "react";
-import { Close, Menu } from "@mui/icons-material"
+import { Close, Photo, Home } from "@mui/icons-material"
 
 export default [
     {
       name: "Link 1",
       link: "#target1",
-      icon: <Close/>
+      icon: <Home/>
      
     },
     {
       name: "Link 2",
       link: "#target2",
-      icon: <Close/>
+      icon: <Photo/>
 
 
      

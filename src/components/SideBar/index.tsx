@@ -20,8 +20,8 @@ return(
       <>
       
       <Styled.MenuLink>
-        <Close/>
-        <h3>uepa</h3>
+        {links.icon}
+        <h3>{links.name}</h3>
       </Styled.MenuLink>
       </>
     )

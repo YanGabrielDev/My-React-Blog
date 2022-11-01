@@ -9,7 +9,7 @@ ${({theme, open}) => css`
 background-color: ${theme.colors.black};
 width: ${ open ? "200px" : "50px"};
 height: 100vh;
-position: absolute;
+position: fixed;
 overflow: hidden;
 top: 0;
 left: 0;
@@ -60,7 +60,7 @@ color: white;
 align-items: center;
 letter-spacing: 2px;
 padding: 3px 12px;
-margin-top: 5px;
+margin-top: 1rem;
 `}
 
 `
