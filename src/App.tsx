@@ -1,86 +1,32 @@
 import { Button, Menu, MenuItem } from '@mui/material';
 import React from 'react';
 import './App.css';
-import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
-import EditIcon from '@mui/icons-material/Edit';
-import Divider from '@mui/material/Divider';
-import ArchiveIcon from '@mui/icons-material/Archive';
-import FileCopyIcon from '@mui/icons-material/FileCopy';
-import MoreHorizIcon from '@mui/icons-material/MoreHoriz';
-import { SideBar } from './components/SideBar';
 import { Header } from './components/Header';
-import { Content } from './components/Content';
+import LayouPage from './components/LayoutPage'
+import { SideBar } from './components/SideBar';
 
 function App() {
-  const [anchorEl, setAnchorEl] = React.useState<null | HTMLElement>(null);
-  const open = Boolean(anchorEl);
-  const handleClick = (event: React.MouseEvent<HTMLElement>) => {
-    setAnchorEl(event.currentTarget);
-  };
-  const handleClose = () => {
-    setAnchorEl(null);
-  };
 
   return (
     <div>
-      <Header/>
-      <SideBar/>
-      <Content>
-        <h1>Title post</h1>
-        <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore vitae earum temporibus ipsum, laudantium omnis numquam soluta corporis quasi repellendus? Omnis delectus dolorem nam recusandae, ratione velit necessitatibus id exercitationem?</h3>
-        <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore vitae earum temporibus ipsum, laudantium omnis numquam soluta corporis quasi repellendus? Omnis delectus dolorem nam recusandae, ratione velit necessitatibus id exercitationem?</h3>
-        <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore vitae earum temporibus ipsum, laudantium omnis numquam soluta corporis quasi repellendus? Omnis delectus dolorem nam recusandae, ratione velit necessitatibus id exercitationem?</h3>
-        <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore vitae earum temporibus ipsum, laudantium omnis numquam soluta corporis quasi repellendus? Omnis delectus dolorem nam recusandae, ratione velit necessitatibus id exercitationem?</h3>
-        <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore vitae earum temporibus ipsum, laudantium omnis numquam soluta corporis quasi repellendus? Omnis delectus dolorem nam recusandae, ratione velit necessitatibus id exercitationem?</h3>
-        <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore vitae earum temporibus ipsum, laudantium omnis numquam soluta corporis quasi repellendus? Omnis delectus dolorem nam recusandae, ratione velit necessitatibus id exercitationem?</h3>
-        <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore vitae earum temporibus ipsum, laudantium omnis numquam soluta corporis quasi repellendus? Omnis delectus dolorem nam recusandae, ratione velit necessitatibus id exercitationem?</h3>
-        <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore vitae earum temporibus ipsum, laudantium omnis numquam soluta corporis quasi repellendus? Omnis delectus dolorem nam recusandae, ratione velit necessitatibus id exercitationem?</h3>
-        <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore vitae earum temporibus ipsum, laudantium omnis numquam soluta corporis quasi repellendus? Omnis delectus dolorem nam recusandae, ratione velit necessitatibus id exercitationem?</h3>
-        <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore vitae earum temporibus ipsum, laudantium omnis numquam soluta corporis quasi repellendus? Omnis delectus dolorem nam recusandae, ratione velit necessitatibus id exercitationem?</h3>
-        <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore vitae earum temporibus ipsum, laudantium omnis numquam soluta corporis quasi repellendus? Omnis delectus dolorem nam recusandae, ratione velit necessitatibus id exercitationem?</h3>
-        <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore vitae earum temporibus ipsum, laudantium omnis numquam soluta corporis quasi repellendus? Omnis delectus dolorem nam recusandae, ratione velit necessitatibus id exercitationem?</h3>
-        <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore vitae earum temporibus ipsum, laudantium omnis numquam soluta corporis quasi repellendus? Omnis delectus dolorem nam recusandae, ratione velit necessitatibus id exercitationem?</h3>
-        <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore vitae earum temporibus ipsum, laudantium omnis numquam soluta corporis quasi repellendus? Omnis delectus dolorem nam recusandae, ratione velit necessitatibus id exercitationem?</h3>
-      </Content>
-      {/* <Button
-        id="demo-customized-button"
-        aria-controls={open ? 'demo-customized-menu' : undefined}
-        aria-haspopup="true"
-        aria-expanded={open ? 'true' : undefined}
-        variant="contained"
-        disableElevation
-        onClick={handleClick}
-        endIcon={<KeyboardArrowDownIcon />}
-      >
-        Options
-      </Button>
-      <Menu
-        id="demo-customized-menu"
-        MenuListProps={{
-          'aria-labelledby': 'demo-customized-button',
-        }}
-        anchorEl={anchorEl}
-        open={open}
-        onClose={handleClose}
-      >
-        <MenuItem onClick={handleClose} disableRipple>
-          <EditIcon />
-          Edit
-        </MenuItem>
-        <MenuItem onClick={handleClose} disableRipple>
-          <FileCopyIcon />
-          Duplicate
-        </MenuItem>
-        <Divider sx={{ my: 0.5 }} />
-        <MenuItem onClick={handleClose} disableRipple>
-          <ArchiveIcon />
-          Archive
-        </MenuItem>
-        <MenuItem onClick={handleClose} disableRipple>
-          <MoreHorizIcon />
-          More
-        </MenuItem>
-      </Menu> */}
+     <LayouPage>
+     <h1>oasofmas</h1>
+     <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam distinctio at quo praesentium sunt aliquam sapiente molestiae accusamus iure provident nesciunt alias assumenda, laudantium maiores. Ad id qui sed deleniti?</h2>
+     <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam distinctio at quo praesentium sunt aliquam sapiente molestiae accusamus iure provident nesciunt alias assumenda, laudantium maiores. Ad id qui sed deleniti?</h2>
+     <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam distinctio at quo praesentium sunt aliquam sapiente molestiae accusamus iure provident nesciunt alias assumenda, laudantium maiores. Ad id qui sed deleniti?</h2>
+     <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam distinctio at quo praesentium sunt aliquam sapiente molestiae accusamus iure provident nesciunt alias assumenda, laudantium maiores. Ad id qui sed deleniti?</h2>
+     <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam distinctio at quo praesentium sunt aliquam sapiente molestiae accusamus iure provident nesciunt alias assumenda, laudantium maiores. Ad id qui sed deleniti?</h2>
+     <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam distinctio at quo praesentium sunt aliquam sapiente molestiae accusamus iure provident nesciunt alias assumenda, laudantium maiores. Ad id qui sed deleniti?</h2>
+     <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam distinctio at quo praesentium sunt aliquam sapiente molestiae accusamus iure provident nesciunt alias assumenda, laudantium maiores. Ad id qui sed deleniti?</h2>
+     <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam distinctio at quo praesentium sunt aliquam sapiente molestiae accusamus iure provident nesciunt alias assumenda, laudantium maiores. Ad id qui sed deleniti?</h2>
+     <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam distinctio at quo praesentium sunt aliquam sapiente molestiae accusamus iure provident nesciunt alias assumenda, laudantium maiores. Ad id qui sed deleniti?</h2>
+     <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam distinctio at quo praesentium sunt aliquam sapiente molestiae accusamus iure provident nesciunt alias assumenda, laudantium maiores. Ad id qui sed deleniti?</h2>
+     <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam distinctio at quo praesentium sunt aliquam sapiente molestiae accusamus iure provident nesciunt alias assumenda, laudantium maiores. Ad id qui sed deleniti?</h2>
+     <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam distinctio at quo praesentium sunt aliquam sapiente molestiae accusamus iure provident nesciunt alias assumenda, laudantium maiores. Ad id qui sed deleniti?</h2>
+     <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam distinctio at quo praesentium sunt aliquam sapiente molestiae accusamus iure provident nesciunt alias assumenda, laudantium maiores. Ad id qui sed deleniti?</h2>
+     <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam distinctio at quo praesentium sunt aliquam sapiente molestiae accusamus iure provident nesciunt alias assumenda, laudantium maiores. Ad id qui sed deleniti?</h2>
+     <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam distinctio at quo praesentium sunt aliquam sapiente molestiae accusamus iure provident nesciunt alias assumenda, laudantium maiores. Ad id qui sed deleniti?</h2>
+     </LayouPage>
     </div>
   );
 }
