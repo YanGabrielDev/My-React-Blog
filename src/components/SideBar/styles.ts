@@ -1,5 +1,5 @@
 import styled, {css}from "styled-components";
-import {Colors} from "../../styles/theme"
+import {ThemeInterface} from "../../styles/theme"
 type OpenSideBar = {
     open?: boolean;
     onClick?: React.MouseEventHandler<HTMLButtonElement>;

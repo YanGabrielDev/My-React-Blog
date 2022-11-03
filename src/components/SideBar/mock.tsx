@@ -3,13 +3,13 @@ import { Close, Photo, Home } from "@mui/icons-material"
 
 export default [
     {
-      name: "Link 1",
+      name: "Home",
       link: "#target1",
       icon: <Home/>
      
     },
     {
-      name: "Link 2",
+      name: "Photos",
       link: "#target2",
       icon: <Photo/>
 
