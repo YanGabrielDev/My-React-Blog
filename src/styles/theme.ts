@@ -1,16 +1,30 @@
 export interface ThemeInterface{
-  theme?:{
+  theme:{
     colors?:{
         black?: string,
         white?: string,       
     }
-  }
-  font?: {
-    family?: {
-      default?: string,
-      secondary?: string,
+  
+    fonts: {
+      family?: {
+        default?: string,
+        secondary?: string,
+      },
+      sizes?: {
+        xsmall?: string,
+        small?: string,
+        medium?: string,
+        large?: string,
+        xlarge?: string,
+        xxlarge?: string,
+        huge?: string,
+        xhuge?: string,
+      },
     },
-    sizes?: {
+    media?: {
+      lteMedium?: string,
+    },
+    spacings?: {
       xsmall?: string,
       small?: string,
       medium?: string,
@@ -20,25 +34,12 @@ export interface ThemeInterface{
       huge?: string,
       xhuge?: string,
     },
-  },
-  media?: {
-    lteMedium?: string,
-  },
-  spacings?: {
-    xsmall?: string,
-    small?: string,
-    medium?: string,
-    large?: string,
-    xlarge?: string,
-    xxlarge?: string,
-    huge?: string,
-    xhuge?: string,
-  },
+  }
 }  
 
 
       
-export const Theme = {
+export const theme = {
     colors:{
         black: "#0a0a0a",
         white: "#ffffff",       
@@ -72,4 +73,4 @@ export const Theme = {
         huge: "5.6rem",
         xhuge: "6.4rem",
       },
-}
+    }

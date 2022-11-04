@@ -1,4 +1,5 @@
 import { createGlobalStyle } from "styled-components";
+import { ThemeInterface } from "./theme";
 
 export const GlobalStyles = createGlobalStyle`
 
@@ -14,6 +15,7 @@ export const GlobalStyles = createGlobalStyle`
 body{
     color: black;
     /* background: black; */
+    font-family: ${({theme}: ThemeInterface) => theme.fonts.family?.default};
 }
 
 
