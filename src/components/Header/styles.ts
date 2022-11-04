@@ -10,9 +10,22 @@ position: fixed;
 `}
 `
 export const LogoText =  styled.h2`
-${({theme, font}:ThemeInterface) =>css`
-font-size: ${font?.sizes?.medium};
+${({theme}:ThemeInterface) =>css`
+font-size: ${theme.fonts?.sizes?.small};
 color: white;
+align-items: center;
+text-align: center;
+
+`}
+`
+export const contentHeader =  styled.div`
+${({theme}:ThemeInterface) =>css`
+width: 100%;
+max-width: 1050px;
+padding: 0 1rem;
+display: flex;
+justify-content: space-between;
+margin: 0 auto;
 
 `}
 `
