@@ -1,5 +1,7 @@
 import styled, {css}from "styled-components";
 import {ThemeInterface} from "../../styles/theme"
+import {Link} from  'react-router-dom'
+
 type OpenSideBar = {
     open?: boolean;
     onClick?: React.MouseEventHandler<HTMLButtonElement>;
@@ -7,7 +9,7 @@ type OpenSideBar = {
 export const Container = styled.nav<OpenSideBar>`
 ${({theme, open}) => css`
 background-color: ${theme.colors.black};
-width: ${ open ? "200px" : "50px"};
+width: ${ open ? "220px" : "50px"};
 height: 100vh;
 position: fixed;
 overflow: hidden;
@@ -49,7 +51,7 @@ flex-direction: column;
 `}
 
 `
-export const MenuLink = styled.a`
+export const MenuLink = styled(Link)`
 ${({theme}) => css`
 background-color: ${theme.colors.black};
 width: 100%;
@@ -61,6 +63,7 @@ align-items: center;
 letter-spacing: 2px;
 padding: 3px 12px;
 margin-top: 1rem;
+text-decoration: none;
 `}
 
 `

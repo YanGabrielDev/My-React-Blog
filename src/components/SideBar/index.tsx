@@ -1,33 +1,26 @@
-import { useState } from "react";
-import * as Styled from "./styles";
-import { Close, Menu } from "@mui/icons-material"
-import mock from "./mock";
+import { useState } from "react"
+import * as Styled from "./styles"
+import { Close, Photo, Home, Menu } from "@mui/icons-material"
 
 export const SideBar = () => {
-const [open, setOpen] = useState(false)
-return(
-  <Styled.Container open={open}>
-    <Styled.Header>
-
-  <Styled.Button onClick={() => setOpen(!open)}>
-    {open ? <Close/> : <Menu/>}
-  </Styled.Button>
-    </Styled.Header>
-    <Styled.Menu>
-     
-  {mock.map((links: any) => {
-    return(
-      <>
-      
-      <Styled.MenuLink>
-        {links.icon}
-        <h3>{links.name}</h3>
-      </Styled.MenuLink>
-      </>
-    )
-  })}
-    </Styled.Menu>
-  </Styled.Container>
-)
- 
-};
+  const [open, setOpen] = useState(false)
+  return (
+    <Styled.Container open={open}>
+      <Styled.Header>
+        <Styled.Button onClick={() => setOpen(!open)}>
+          {open ? <Close /> : <Menu />}
+        </Styled.Button>
+      </Styled.Header>
+      <Styled.Menu>
+        <Styled.MenuLink to={"./posts"}>
+          <Home />
+          <h3>Home</h3>
+        </Styled.MenuLink>
+        <Styled.MenuLink to={"./posts"}>
+          <Photo />
+          <h3>Photos</h3>
+        </Styled.MenuLink>
+      </Styled.Menu>
+    </Styled.Container>
+  )
+}
