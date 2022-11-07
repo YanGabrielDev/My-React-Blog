@@ -3,6 +3,7 @@ export interface ThemeInterface{
     colors?:{
         black?: string,
         white?: string,       
+        ciano?: string,       
     }
   
     fonts: {
@@ -43,6 +44,7 @@ export const theme = {
     colors:{
         black: "#0a0a0a",
         white: "#ffffff",       
+        ciano: "#03b1fc",       
     },
     fonts: {
         family: {
