@@ -12,7 +12,7 @@ export const SideBar = () => {
         </Styled.Button>
       </Styled.Header>
       <Styled.Menu>
-        <Styled.MenuLink to={"./posts"}>
+        <Styled.MenuLink to={"./"}>
           <Home />
           <h3>Home</h3>
         </Styled.MenuLink>

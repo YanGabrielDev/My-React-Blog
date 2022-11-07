@@ -64,6 +64,10 @@ letter-spacing: 2px;
 padding: 3px 12px;
 margin-top: 1rem;
 text-decoration: none;
+
+&:hover {
+      background-color: ${theme.colors.ciano};
+    }
 `}
 
 `
