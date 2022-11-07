@@ -26,6 +26,18 @@ padding: 0 1rem;
 display: flex;
 justify-content: space-between;
 margin: 0 auto;
+height: 50px;
+align-items: center;
+
+`}
+`
+export const LogoTextandImage =  styled.div`
+${({theme}:ThemeInterface) =>css`
+height: 50px;
+width: auto;
+max-width: 200px;
+align-items: center;
+display: flex;
 
 `}
 `
