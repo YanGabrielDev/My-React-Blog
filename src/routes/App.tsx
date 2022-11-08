@@ -9,9 +9,9 @@ function App() {
     <div>
       <LayouPage>
         <Routes>
-          <Route path="/Posts" element={<Posts />} />
-          <Route path="/" element={<Home />} />
           <Route path="/Juninho" element={<Juninho />} />
+          <Route path="/" element={<Home />} />
+          <Route path="/Posts" element={<Posts />} />
         </Routes>
       </LayouPage>
     </div>
