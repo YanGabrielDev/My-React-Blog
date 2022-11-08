@@ -12,6 +12,8 @@ display: flex;
 justify-content: center;
 flex-direction: column;
 padding-top: 6rem;
+padding-bottom: 6rem;
+
 font-family: ${theme.fonts?.family?.default};
 `}
 
