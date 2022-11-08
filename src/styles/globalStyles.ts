@@ -6,10 +6,10 @@ export const GlobalStyles = createGlobalStyle`
 *{
     margin: 0;
     box-sizing: border-box;
-    padding: 0;
-
-    
-    
+    padding: 0;    
+}
+a{
+    color:  ${({theme}: ThemeInterface) => theme.colors?.ciano};
 }
 
 body{

@@ -4,6 +4,7 @@ export interface ThemeInterface{
         black?: string,
         white?: string,       
         ciano?: string,       
+        gray?: string,       
     }
   
     fonts: {
@@ -45,6 +46,7 @@ export const theme = {
         black: "#0a0a0a",
         white: "#ffffff",       
         ciano: "#03b1fc",       
+        gray: "#595859",       
     },
     fonts: {
         family: {
@@ -52,7 +54,7 @@ export const theme = {
           secondary: "'Montserrat', sans-serif",
         },
         sizes: {
-          xsmall: "8rem",
+          xsmall: "1.3rem",
           small: "1.6rem",
           medium: "2.4rem",
           large: "3.2rem",
