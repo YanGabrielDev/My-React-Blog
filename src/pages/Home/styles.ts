@@ -7,3 +7,11 @@ export const Title = styled.h1`
 
  `}
 `
+
+export const Paragraph = styled.h3`
+ ${({theme}: ThemeInterface) => css`
+ font-size: ${theme.fonts.sizes?.xsmall};
+ margin-top: 1rem;
+
+ `}
+`
