@@ -21,7 +21,6 @@ export const Paragraph = styled.h3`
 `
 export const Date = styled.p`
 ${({theme}: ThemeInterface) => css`
-margin-top: 1rem;
 font-size: 1rem;
 color: ${theme.colors?.gray}
 `}
