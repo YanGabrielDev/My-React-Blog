@@ -20,7 +20,7 @@ export const SideBar = () => {
           <ContactPage />
           <h3>Posts</h3>
         </Styled.MenuLink>
-        <Styled.MenuLink to={"./posts"}>
+        <Styled.MenuLink to={"/Photos"}>
           <Photo />
           <h3>Photos</h3>
         </Styled.MenuLink>
