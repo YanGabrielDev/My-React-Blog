@@ -31,7 +31,4 @@ font-weight: bold;
 cursor: pointer;
 
 `
-export const thumbnailImage = styled.img`
-width: auto;
-height: 200px;
-`
+
