@@ -50,7 +50,7 @@ export const theme = {
     },
     fonts: {
         family: {
-          default: "'Raleway', sans-serif",
+          default: "'Roboto', sans-serif",
           secondary: "'Montserrat', sans-serif",
         },
         sizes: {
@@ -68,13 +68,13 @@ export const theme = {
         lteMedium: "(max-width: 768px)",
       },
       spacings: {
-        xsmall: "8rem",
+        xsmall: "1rem",
         small: "1.6rem",
         medium: "2.4rem",
         large: "3.2rem",
         xlarge: "4.0rem",
         xxlarge: "4.8rem",
         huge: "5.6rem",
-        xhuge: "6.4rem",
+        xhuge: "11rem",
       },
     }
