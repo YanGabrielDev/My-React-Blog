@@ -5,7 +5,7 @@ export const Container = styled.div`
 ${({theme}: ThemeInterface) => css`
 width: 100%;
 max-width: 760px;
-/* background-color: red; */
+padding: 0 1rem;
 margin:0 auto;
 height: 100%;
 display: flex;
